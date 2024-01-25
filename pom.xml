@@ -8,7 +8,7 @@
     <name>crud</name>
     <version>1.0-SNAPSHOT</version>
     <packaging>jar</packaging>
-
+    
     <properties>
         <java.version>17</java.version>
         <vaadin.version>24.0.5</vaadin.version>
@@ -20,7 +20,6 @@
         <artifactId>spring-boot-starter-parent</artifactId>
         <version>3.0.6</version>
     </parent>
-
 
     <repositories>
         <repository>
@@ -96,6 +95,13 @@
     		<artifactId>javax.persistence-api</artifactId>
     		<version>2.2</version>
 		</dependency>
+		
+		<dependency>
+    		<groupId>com.vaadin</groupId>
+    		<artifactId>vaadin-core</artifactId>
+    		<version>24.0.5</version> <!-- Use a versão correspondente ao seu projeto -->
+    	</dependency>
+
     </dependencies>
 
     <build>
